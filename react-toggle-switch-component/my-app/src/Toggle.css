@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 10rem;
+}
+
+.toggle-container {
+  position: relative;
+  margin-right: 2rem;
+}
+
+.toggle {
+  height: 2rem;
+  width: 4rem;
+  background-color: gray;
+  border-radius: 1rem;
+  border: 1px black solid;
+}
+
+.toggle-button {
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px black solid;
+  position: absolute;
+  top: 0;
+}
+
+.toggle-button:hover {
+  background-color: lightgray;
+}
+
+.is-on .toggle {
+  background-color: lightgreen;
+}
+
+.is-on .toggle-button {
+  left: 50%;
+}
