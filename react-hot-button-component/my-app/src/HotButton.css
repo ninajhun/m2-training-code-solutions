@@ -1,0 +1,38 @@
+button {
+  padding: 0.5rem 1rem;
+  border: 1px solid black !important;
+  border-radius: 0 !important;
+}
+
+button.extra-cold {
+  color: white;
+  background-color: darkblue;
+}
+
+button.cold {
+  color: white;
+  background-color: blue;
+}
+
+button.warm {
+  color: white;
+  background-color: red;
+}
+
+button.warmer {
+  background-color: orange;
+}
+
+button.hot {
+  background-color: yellow;
+}
+
+button.extra-hot {
+  background-color: white;
+}
+
+button.extra-cold,
+button.cold,
+button.warm {
+  color: white;
+}
